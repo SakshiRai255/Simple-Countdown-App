@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Down Timer</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main-div">
+        <h2>COUNTDOWN TIMER</h2>
+        <h2 id="end-date"></h2>
+        <div class="timeExpireMessage">
+
+        </div>
+        <div class="wrapper">
+            <div>
+                <label for="days"></label>
+                <input type="text" value="0" id="days" readonly> <br>
+                <span>DAYS</span>
+            </div>
+            <div>
+                <label for="hour"></label>
+                <input type="text" value="0" id="hour" readonly> <br>
+                <span>HOUR</span>
+            </div>
+            <div>
+                <label for="minute"></label>
+                <input type="text" value="0" id="minute" readonly> <br>
+                <span>MINUTE</span>
+            </div>
+            <div>
+                <label for="seconds"></label>
+                <input type="text" value="0" id="seconds" readonly> <br>
+                <span>SECONDS</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
